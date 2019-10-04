@@ -92,3 +92,8 @@ patch:
         patched: '2019-09-07T18:06:38.497Z'
     - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
         patched: '2019-09-07T18:06:38.497Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T00:39:09.833Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T00:39:09.833Z'
