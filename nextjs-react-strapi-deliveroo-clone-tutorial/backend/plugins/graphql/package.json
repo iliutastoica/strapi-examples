@@ -36,7 +36,8 @@
     "graphql-type-datetime": "^0.2.2",
     "graphql-type-json": "^0.2.1",
     "pluralize": "^7.0.0",
-    "strapi-utils": "3.0.0-alpha.19"
+    "strapi-utils": "3.0.0-alpha.19",
+    "snyk": "^1.316.1"
   },
   "deprecated": false,
   "description": "This is the description of the plugin.",
@@ -62,12 +63,15 @@
     "prebuild": "npm run build:clean && npm run test",
     "prettier": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/prettier --single-quote --trailing-comma es5 --write \"{admin,__{tests,mocks}__}/**/*.js\"",
     "start": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/lib/server",
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "strapi": {
     "name": "graphql",
     "icon": "plug",
     "description": "Description of graphql plugin."
   },
-  "version": "3.0.0-alpha.19"
+  "version": "3.0.0-alpha.19",
+  "snyk": true
 }
