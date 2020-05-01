@@ -9,7 +9,9 @@
     "start": "node server.js",
     "strapi": "node_modules/strapi/bin/strapi.js",
     "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js",
-    "postinstall": "node node_modules/strapi/lib/utils/post-install.js"
+    "postinstall": "node node_modules/strapi/lib/utils/post-install.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -24,7 +26,8 @@
     "strapi-hook-bookshelf": "3.0.0-alpha.23.1",
     "strapi-hook-knex": "3.0.0-alpha.23.1",
     "knex": "latest",
-    "sqlite3": "4.0.6"
+    "sqlite3": "4.0.6",
+    "snyk": "^1.316.1"
   },
   "author": {
     "name": "david",
@@ -46,5 +49,6 @@
     "node": ">= 10.0.0",
     "npm": ">= 6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
