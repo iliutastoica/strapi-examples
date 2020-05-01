@@ -11,7 +11,9 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
@@ -19,7 +21,8 @@
     "js-cookie": "^2.2.0",
     "nuxt": "^2.0.0",
     "strapi-sdk-javascript": "^0.3.0",
-    "vue-stripe-elements-plus": "^0.2.9"
+    "vue-stripe-elements-plus": "^0.2.9",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -30,5 +33,6 @@
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-vue": "^4.7.1",
     "prettier": "^1.14.3"
-  }
+  },
+  "snyk": true
 }
