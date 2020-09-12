@@ -12,7 +12,7 @@
     "apollo-upload-client": "^8.1.0",
     "babel-plugin-graphql-tag": "^1.6.0",
     "babel-plugin-transform-inline-environment-variables": "^0.4.3",
-    "cross-fetch": "^2.2.2",
+    "cross-fetch": "^3.0.6",
     "dotenv-cli": "^1.4.0",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
