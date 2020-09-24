@@ -16,11 +16,11 @@
     "dotenv-cli": "^1.4.0",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
-    "next": "^6.1.1",
-    "react": "^16.4.1",
-    "react-apollo": "^2.1.9",
+    "next": "^7.0.0",
+    "react": "^16.5.0",
+    "react-apollo": "^2.5.0",
     "react-display-name": "^0.2.4",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
