@@ -27,8 +27,8 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "apollo-server-koa": "^2.0.7",
-    "glob": "^7.1.3",
+    "apollo-server-koa": "^3.13.0",
+    "glob": "^9.0.0",
     "graphql": "^14.0.2",
     "graphql-depth-limit": "^1.1.0",
     "graphql-playground-middleware-koa": "^1.6.4",
@@ -36,7 +36,7 @@
     "graphql-type-datetime": "^0.2.2",
     "graphql-type-json": "^0.2.1",
     "pluralize": "^7.0.0",
-    "strapi-utils": "3.0.0-alpha.19"
+    "strapi-utils": "3.6.11"
   },
   "deprecated": false,
   "description": "This is the description of the plugin.",
