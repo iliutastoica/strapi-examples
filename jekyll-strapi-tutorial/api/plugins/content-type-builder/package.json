@@ -33,7 +33,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "pluralize": "^7.0.0",
-    "strapi-generate": "3.0.0-alpha.12.0.1",
+    "strapi-generate": "3.6.11",
     "strapi-generate-api": "3.0.0-alpha.12.0.1"
   },
   "deprecated": false,
